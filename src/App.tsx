@@ -14,20 +14,18 @@ export default function Page() {
     const phrases = [
       "No",
       "Are you sure?",
-      "What if I asked really nicely?",
       "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
-      "But :*(",
-      "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
+      "Onek misti khawabo!",
+      "Momo kawabo!!",
+      "Ice cream khabi?",
+      "Biriyani?",
+      "Cold drinks?", 
+      "Ja bolbi tai khawabo!",
+      "Erom korte parbi :(",
       "please babe",
       ":((((",
-      "PRETTY PLEASE",
-      "Estoy muerto",
       "No :(",
+      "Sob ei nijeder moddhe"
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -46,7 +44,7 @@ export default function Page() {
             className="h-[200px]"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
-          <h1 className="my-4 text-4xl">I know you are not feeling good, but I'm always here for you. I know this is a bit late but will you be my Valentine?</h1>
+          <h1 className="my-4 text-4xl">I know you are not feeling good, but I'm always here for you. I wanted to do something for you. I know this is a bit late but will you please be my Valentine?</h1>
           <div className="flex items-center">
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
